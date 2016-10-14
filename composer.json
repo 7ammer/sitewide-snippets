@@ -4,5 +4,10 @@
 	"dist": {
 		"url": "https://github.com/7ammer/SitewideSnippets",
 		"type": "git"
-	}
+	},
+	"autoload": {
+		"psr-4": {
+			"Jammer\\SitewideSnippets\\": "packages/7ammer/sitewide-snippets/src/"
+		}
+	},
 }
