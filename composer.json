@@ -1,5 +1,5 @@
 {
-	"name": "7ammer/sitewide-snippets",
+	"name": "jammer/sitewide-snippets",
 	"version": "0.1.0",
 	"dist": {
 		"url": "https://github.com/7ammer/SitewideSnippets",
@@ -7,7 +7,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Jammer\\SitewideSnippets\\": "packages/7ammer/sitewide-snippets/src/"
+			"Jammer\\SitewideSnippets\\": "packages/jammer/sitewide-snippets/src/"
 		}
 	}
 }
