@@ -9,5 +9,5 @@
 		"psr-4": {
 			"Jammer\\SitewideSnippets\\": "packages/7ammer/sitewide-snippets/src/"
 		}
-	},
+	}
 }
