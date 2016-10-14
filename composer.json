@@ -1,8 +1,8 @@
 {
 	"name": "jammer/sitewide-snippets",
-	"version": "0.1.0",
+	"version": "master",
 	"dist": {
-		"url": "https://github.com/7ammer/SitewideSnippets",
+		"url": "git@github.com:7ammer/SitewideSnippets.git",
 		"type": "git"
 	},
 	"autoload": {
