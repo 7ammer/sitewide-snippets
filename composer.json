@@ -9,5 +9,9 @@
 		"psr-4": {
 			"SitewideSnippets\\": "src/"
 		}
-	}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan vendor:publish --provider=\"jammer\\sitewide-snippets\\SitewideSnippetsServiceProvider\""
+		]
 }
