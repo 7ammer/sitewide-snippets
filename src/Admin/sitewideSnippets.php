@@ -1,7 +1,7 @@
 <?php
 
-use Jammer\SitewideSnippets\Model\SitewideSnippet;
-use Jammer\SitewideSnippets\Model\SitewideSnippetRepository;
+use SitewideSnippets\Model\SitewideSnippet;
+use SitewideSnippets\Model\SitewideSnippetRepository;
 use SleepingOwl\Admin\Model\ModelConfiguration;
 
 AdminSection::registerModel(SitewideSnippet::class, function (ModelConfiguration $model) {

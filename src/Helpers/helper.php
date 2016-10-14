@@ -1,6 +1,6 @@
 <?php
-use Jammer\SitewideSnippets\Model\SitewideSnippet;
-use Jammer\SitewideSnippets\Model\SitewideSnippetRepository;
+use SitewideSnippets\Model\SitewideSnippet;
+use SitewideSnippets\Model\SitewideSnippetRepository;
 
 function showSnippet($snippet_legend, $machine_name = false) {
 	$sitewide_snippets_repo = new SitewideSnippetRepository(new SitewideSnippet());

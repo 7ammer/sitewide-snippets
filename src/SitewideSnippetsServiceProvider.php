@@ -1,6 +1,6 @@
 <?php
 
-namespace Jammer\SitewideSnippets;
+namespace  SitewideSnippets;
 
 use Illuminate\Support\ServiceProvider;
 

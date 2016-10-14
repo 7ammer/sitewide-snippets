@@ -1,5 +1,5 @@
 <?php
-namespace Jammer\SitewideSnippets\Model;
+namespace SitewideSnippets\Model;
 
 
 class SitewideSnippetRepository

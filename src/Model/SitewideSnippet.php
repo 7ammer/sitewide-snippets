@@ -1,5 +1,5 @@
 <?php
-namespace Jammer\SitewideSnippets\Model;
+namespace SitewideSnippets\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
