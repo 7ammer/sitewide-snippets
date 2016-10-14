@@ -1,14 +1,6 @@
 #Installation
 
 
-#####composer.json
-```
-"psr-4": {
-    "App\\": "app/",
-    "Jammer\\SitewideSnippets\\": "packages/Jammer/SitewideSnippets/src/"
-}
-```
-
 #####config/app.php
 ```
 'providers' => [
@@ -16,7 +8,7 @@
      * Package Service Providers...
      */
     // SitewideSnippets for SleepingOwl
-    Jammer\SitewideSnippets\SitewideSnippetsServiceProvider::class,
+    SitewideSnippets\SitewideSnippetsServiceProvider::class,
 ]
 ```
 #####app/Admin/navigation.php
@@ -24,13 +16,12 @@
 [
 	'title' => 'Site Settings',
 	'icon' => 'fa fa-cog',
-	'model' => \Jammer\SitewideSnippets\Model\SitewideSnippet::class
+	'model' => \SitewideSnippets\Model\SitewideSnippet::class
 ]
 ```
 
 ##Run commands
 `php artisan vendor:publish`
-
 `php artisan migrate`
 
 
