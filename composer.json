@@ -2,8 +2,8 @@
 	"name": "jammer/sitewide-snippets",
 	"version": "master",
 	"source": {
-		"url": "git@github.com:7ammer/SitewideSnippets.git",
-		"type": "git"
+		"type": "git",
+		"url": "git@github.com:7ammer/SitewideSnippets.git"
 	},
 	"autoload": {
 		"psr-4": {
