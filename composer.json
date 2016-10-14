@@ -1,7 +1,7 @@
 {
 	"name": "jammer/sitewide-snippets",
 	"version": "master",
-	"source": {
+	"dist": {
 		"type": "git",
 		"url": "https://github.com/7ammer/sitewide-snippets.git"
 	},
