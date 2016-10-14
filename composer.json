@@ -3,7 +3,8 @@
 	"version": "master",
 	"source": {
 		"type": "git",
-		"url": "git@github.com:7ammer/sitewide-snippets.git"
+		"url": "git@github.com:7ammer/sitewide-snippets.git",
+		"reference": "master"
 	},
 	"autoload": {
 		"psr-4": {
