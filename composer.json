@@ -1,6 +1,5 @@
 {
 	"name": "jammer/sitewide-snippets",
-	"version": "master",
 	"source": {
 		"type": "git",
 		"url": "git@github.com:7ammer/sitewide-snippets.git",
