@@ -1,8 +1,8 @@
 {
-	"name": "7ammer/sitewidesnippets",
+	"name": "7ammer/sitewide-snippets",
 	"version": "0.1.0",
 	"dist": {
 		"url": "https://github.com/7ammer/SitewideSnippets",
-		"type": "vcs"
+		"type": "git"
 	}
 }
