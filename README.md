@@ -1,5 +1,17 @@
 #Installation
 
+#####composer.json
+```
+"repositories": [
+  {
+    "type": "vcs",
+	"url": "git@github.com:7ammer/sitewide-snippets.git"
+  }
+],
+"require": {
+  "jammer/sitewide-snippets": "dev-master"
+}
+```
 
 #####config/app.php
 ```
